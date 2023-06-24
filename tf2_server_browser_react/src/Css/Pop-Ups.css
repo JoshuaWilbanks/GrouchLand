@@ -1,0 +1,110 @@
+.Delete-Pop-Up {
+    width: 70vw;
+    height: 25vh;
+    margin-top: 25vh;
+    margin-left: 15vw;
+    background-color: rgb(221, 80, 80);
+    border: solid black 1px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.219), 0 6px 20px 0 rgba(0, 0, 0, 0.507);
+    font-family: 'TF2 Build';
+    text-align: center;
+    padding-top: 2%;
+}
+
+.Delete-Pop-Up-Wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.555);
+    text-align: center;
+    display: flex;
+}
+
+.Delete-Pop-Up p {
+    font-size: 2.2vw;
+}
+
+.Browser-Pop-Up {
+    text-align: center;
+    background-color: rgb(221, 80, 80);
+    margin-top: 2vh;
+    border-radius: 10px;
+    font-size: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.219), 0 6px 20px 0 rgba(0, 0, 0, 0.507);
+    font-family: 'TF2 Build';
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.39), 0 6px 20px rgba(0, 0, 0, 0.144);
+    margin-bottom: 0vh;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+}
+
+.Server-PU {
+    width: 100%;
+    font-size: 100%;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+.Server-PU li {    
+    display: inline-block;
+    margin: 0;
+    width: 20%;
+    height: 100%;
+    margin-left: 3%;
+    margin-right: 2%;
+    text-shadow: none;
+    font-size: 1.5vw;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.Server-Header-PU {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: table;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+.Server-Header-PU li {
+    display: inline-block;
+    margin: 0;
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 14%;
+    height: 100%;
+    margin-left: 7%;
+    border: 1px solid;
+    border-spacing: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.219), 0 6px 20px 0 rgba(0, 0, 0, 0.507);
+    text-shadow: none;
+    word-wrap: break-word;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.Button-PU {
+    margin: 5%;
+    width: 15%;
+    height: 20%;
+    background-color: white;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.219), 0 6px 20px 0 rgba(0, 0, 0, 0.507);
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: center;
+    cursor: pointer;
+}
+
+.Button-PU-Yes {
+    background-color: rgb(52, 214, 255);
+}
+
+.Button-PU-No {
+    background-color: rgb(255, 49, 49);
+}

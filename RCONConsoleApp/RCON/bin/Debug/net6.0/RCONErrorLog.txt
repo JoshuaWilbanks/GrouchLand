@@ -1,0 +1,159 @@
+
+------------------------------------------
+3/23/2023 3:13:19 PM
+Server IP: 167.172.144.237System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at CoreRCON.RCON.ConnectAsync()
+   at Program.<>c__DisplayClass0_0.<<<Main>$>g__GetStatus|1>d.MoveNext() in H:\Programming\Projects\Grouch\Website\RCONConsoleApp\RCON\Program.cs:line 47
+
+------------------------------------------
+3/23/2023 3:13:22 PM
+Server IP: 161.35.169.45System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at CoreRCON.RCON.ConnectAsync()
+   at Program.<>c__DisplayClass0_0.<<<Main>$>g__GetStatus|1>d.MoveNext() in H:\Programming\Projects\Grouch\Website\RCONConsoleApp\RCON\Program.cs:line 47
+
+------------------------------------------
+3/23/2023 3:13:49 PM
+Server IP: 167.172.144.237
+System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at CoreRCON.RCON.ConnectAsync()
+   at Program.<>c__DisplayClass0_0.<<<Main>$>g__GetStatus|1>d.MoveNext() in H:\Programming\Projects\Grouch\Website\RCONConsoleApp\RCON\Program.cs:line 47
+
+------------------------------------------
+3/23/2023 3:13:51 PM
+Server IP: 161.35.169.45
+System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at CoreRCON.RCON.ConnectAsync()
+   at Program.<>c__DisplayClass0_0.<<<Main>$>g__GetStatus|1>d.MoveNext() in H:\Programming\Projects\Grouch\Website\RCONConsoleApp\RCON\Program.cs:line 47
+
+--------------------------------------------------------------------------------------
+3/23/2023 3:14:43 PM
+Server IP: 167.172.144.237
+System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at CoreRCON.RCON.ConnectAsync()
+   at Program.<>c__DisplayClass0_0.<<<Main>$>g__GetStatus|1>d.MoveNext() in H:\Programming\Projects\Grouch\Website\RCONConsoleApp\RCON\Program.cs:line 47
+
+--------------------------------------------------------------------------------------
+3/23/2023 3:14:46 PM
+Server IP: 161.35.169.45
+System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at CoreRCON.RCON.ConnectAsync()
+   at Program.<>c__DisplayClass0_0.<<<Main>$>g__GetStatus|1>d.MoveNext() in H:\Programming\Projects\Grouch\Website\RCONConsoleApp\RCON\Program.cs:line 47
+
+--------------------------------------------------------------------------------------
+3/23/2023 3:46:25 PM
+Server IP: 167.172.144.237
+System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at CoreRCON.RCON.ConnectAsync()
+   at Program.<>c__DisplayClass0_0.<<<Main>$>g__GetStatus|1>d.MoveNext() in H:\Programming\Projects\Grouch\Website\RCONConsoleApp\RCON\Program.cs:line 47
+
+--------------------------------------------------------------------------------------
+3/23/2023 3:46:27 PM
+Server IP: 161.35.169.45
+System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at CoreRCON.RCON.ConnectAsync()
+   at Program.<>c__DisplayClass0_0.<<<Main>$>g__GetStatus|1>d.MoveNext() in H:\Programming\Projects\Grouch\Website\RCONConsoleApp\RCON\Program.cs:line 47
+
+--------------------------------------------------------------------------------------
+3/23/2023 3:51:33 PM
+Server IP: 167.172.144.237
+System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at CoreRCON.RCON.ConnectAsync()
+   at Program.<>c__DisplayClass0_0.<<<Main>$>g__GetStatus|1>d.MoveNext() in H:\Programming\Projects\Grouch\Website\RCONConsoleApp\RCON\Program.cs:line 47
+
+--------------------------------------------------------------------------------------
+3/23/2023 3:51:35 PM
+Server IP: 161.35.169.45
+System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at CoreRCON.RCON.ConnectAsync()
+   at Program.<>c__DisplayClass0_0.<<<Main>$>g__GetStatus|1>d.MoveNext() in H:\Programming\Projects\Grouch\Website\RCONConsoleApp\RCON\Program.cs:line 47
+
+--------------------------------------------------------------------------------------
+3/23/2023 3:51:36 PM
+Server IP: 192.168.1.35
+CoreRCON.AuthenticationException: Authentication failed for 192.168.1.35:27015.
+   at CoreRCON.RCON.ConnectAsync()
+   at Program.<>c__DisplayClass0_0.<<<Main>$>g__GetStatus|1>d.MoveNext() in H:\Programming\Projects\Grouch\Website\RCONConsoleApp\RCON\Program.cs:line 47
+
+--------------------------------------------------------------------------------------
+3/23/2023 4:45:26 PM
+Server IP: 192.168.1.35
+System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at CoreRCON.RCON.ConnectAsync()
+   at Program.<>c__DisplayClass0_0.<<<Main>$>g__GetStatus|1>d.MoveNext() in H:\Programming\Projects\Grouch\Website\RCONConsoleApp\RCON\Program.cs:line 78
+
+--------------------------------------------------------------------------------------
+3/23/2023 4:47:35 PM
+Server IP: 192.168.1.35
+System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at CoreRCON.RCON.ConnectAsync()
+   at Program.<>c__DisplayClass0_0.<<<Main>$>g__GetStatus|1>d.MoveNext() in H:\Programming\Projects\Grouch\Website\RCONConsoleApp\RCON\Program.cs:line 78
+
+--------------------------------------------------------------------------------------
+3/23/2023 4:49:04 PM
+Server IP: 192.168.1.35
+System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at CoreRCON.RCON.ConnectAsync()
+   at Program.<>c__DisplayClass0_0.<<<Main>$>g__GetStatus|1>d.MoveNext() in H:\Programming\Projects\Grouch\Website\RCONConsoleApp\RCON\Program.cs:line 79
+
+--------------------------------------------------------------------------------------
+3/23/2023 4:50:22 PM
+Server IP: 192.168.1.35
+System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at CoreRCON.RCON.ConnectAsync()
+   at Program.<>c__DisplayClass0_0.<<<Main>$>g__GetStatus|1>d.MoveNext() in H:\Programming\Projects\Grouch\Website\RCONConsoleApp\RCON\Program.cs:line 79

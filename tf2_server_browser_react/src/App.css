@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+  padding-bottom: 2vh;
+  height: 100vh;
+}
+
+*{
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.leaflet-container {
+  width: 70vw;
+  height: 60vh;
+  margin-left: 15vw;
+  margin-top: 0vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.219), 0 6px 20px 0 rgba(0, 0, 0, 0.507);
+  border-radius: 10px;
+}
+
+.center-settings {
+  width: 70vw;
+  margin-left: 15vw;
+}
+
+
+img {
+  padding-left: 2vmin;
+  font-size: 2vmin;
+}
+
+.Title {
+  color: #dd5050;
+  font-family: 'TF2 Build';
+  padding-top: 1vh;
+  font-size: 6vw;
+  left: 24.5%;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  width: 60vw;
+}
+
+.Map-Place-Holder {
+  width: 70vw;
+  height: 60vh;
+  margin-left: 15vw;
+  margin-top: 0vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.219), 0 6px 20px 0 rgba(0, 0, 0, 0.507);
+  border-radius: 10px;
+  background-color: #474747;
+}
+
+
+.LoginImage {
+  border-width: none;
+  width: 2vw;
+  margin: 0;
+  padding: 0;
+}
+.UserImage {
+  width: 5%;
+  height: 5%;
+  margin-left: -45%;
+  margin-top: 3%;
+  padding: 0;
+  border-radius: 20%;
+  position: absolute;
+  cursor: pointer;
+
+}
+
+
+.GPS {
+  font-size: 1.2vw;
+}
+
+.LoginButton {
+  background-color: rgb(224, 224, 224);
+  border-radius: 5px;
+  cursor: pointer;
+  border-width: 0;
+  position: absolute;
+  margin-left: 1vw;
+  margin-top: 3vh;
+  width: 2.8%;
+  padding: 0;
+}

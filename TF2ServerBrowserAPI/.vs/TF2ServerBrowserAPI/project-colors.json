@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4241556a-ffdf-4194-8fc1-bb7e7526ca23": {
+      "ProjectGuid": "4241556a-ffdf-4194-8fc1-bb7e7526ca23",
+      "DisplayName": "TF2ServerBrowserAPI",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

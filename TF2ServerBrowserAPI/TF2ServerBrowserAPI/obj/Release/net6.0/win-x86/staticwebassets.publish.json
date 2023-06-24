@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZyX2N/yIhcas8Zq072sN2TzfYhj3mFhF9TtSBQzbUF0=",
+  "Source": "TF2ServerBrowserAPI",
+  "BasePath": "_content/TF2ServerBrowserAPI",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

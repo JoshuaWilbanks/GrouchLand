@@ -1,0 +1,15 @@
+.LightSwitch {
+    cursor: pointer;
+    position: absolute;
+    width: 2vw;
+    right: 2vw;
+    top: 4vh;
+}
+
+.EditorSwitch {
+    cursor: pointer;
+    position: absolute;
+    width: 1.8vw;
+    right: 5vw;
+    top: 4.3vh;
+}

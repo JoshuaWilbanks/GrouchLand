@@ -1,0 +1,36 @@
+.PrimaryColorPicker {
+    position: absolute;
+    right: 1vw;
+    top: 100px;
+  }
+  
+.SecondaryColorPicker {
+    position: absolute;
+    left: 1vw;
+    top: 573px;
+  }
+
+.InvertColor {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.TextBackground {
+    padding-left: 3px;
+    padding-right: 3px;
+    margin: 0;
+    border-radius: 5px;
+    border: solid;
+    border-width: 1px;
+    width: 11vw;
+    height: 5.5vw;
+    margin-bottom: 1vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.219), 0 6px 20px 0 rgba(0, 0, 0, 0.507);
+    
+}
+
+.Text {
+    word-wrap: break-word;
+    font-size: 1.5vw;
+    width: 10vw;
+}
