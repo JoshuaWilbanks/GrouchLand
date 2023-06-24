@@ -7,5 +7,6 @@ Administrators are also capable of updating the color schemes of both the light 
 To run:  
 1 - Restore the GrouchLand SQLServer Database from the back up file.  
 2 - Update the database connection string located in TF2ServerBrowserAPI/TF2ServerBrowserAPI/appsettings.json  
-3 - Open and run the .NET API project under TF2ServerBrowserAPI/TF2ServerBrowserAPI  
-4 - Open the React.js project under tf2_server_browser_react and issue the command "npm start"  
+3 - Open and run the .NET API project under TF2ServerBrowserAPI/TF2ServerBrowserAPI    
+4 - Open the React.js project under tf2_server_browser_react and issue the command "npm install" to install all necessary packages.  
+5 - In the React.js project, issue the command "npm start" to launch the website.  
