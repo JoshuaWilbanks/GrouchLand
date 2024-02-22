@@ -32,14 +32,15 @@ if (issueCommands)
 
         //get status
         string status = await rcon.SendCommandAsync("status");
+        Console.WriteLine(status);
 
-        string map = status.Split("map")[1].Trim().Split(":")[1].Trim().Split(" at")[0];
-
-        Console.WriteLine(map);
-
-
-        int humans = int.Parse(status.Split("players")[1].Trim().Split(":")[1].Trim().Split(" humans")[0]);
+        //get human players from status
+        int humans = GetHumans(status);
         Console.WriteLine(humans);
+
+        //get map from status
+        string map = GetMap(status);
+        Console.WriteLine(map);
 
 
         while (command != "quit")
@@ -97,12 +98,12 @@ async Task<Tuple<int, string>> GetStatus(string ip)
         Console.WriteLine(status);
 
         //get human players from status
-        int humans = int.Parse(status.Split("players")[1].Trim().Split(":")[1].Trim().Split(" humans")[0]);
+        int humans = GetHumans(status);
         Console.WriteLine(humans);
 
         //get map from status
-        string map = status.Split("map")[1].Trim().Split(":")[1].Trim().Split(" at")[0].Trim();
-        
+        string map = GetMap(status);
+        Console.WriteLine(map);
 
         //worst format
         //map     : workshop/koth_harvesttower.ugc2890349948 at: 0 x, 0 y, 0 z
@@ -125,4 +126,17 @@ async Task<Tuple<int, string>> GetStatus(string ip)
     }
 
 
+}
+
+
+int GetHumans(string status)
+{
+    string[] firstSplit = status.Split("players");
+
+    return int.Parse(firstSplit[firstSplit.Length - 1].Trim().Split(":")[1].Trim().Split(" humans")[0]);
+}
+
+string GetMap(string status)
+{
+    return status.Split("map")[1].Trim().Split(":")[1].Trim().Split(" at")[0].Trim();
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OjXNBWvSAq6M6JsXPWaPFe6ftiC9xNKuIXS7YRlQdtCtiZuHhlqnl84QBt3DhPZ3s6QJXJcBubpp9DGdLtIKVA==",
+  "dgSpecHash": "vsrOufrJHy3IHQwKYShpl5bakfQMS9teA7RsGAAYwDyY0uzTrWSJ6Zq5oBhVtBkTcQ0bQaLaqF3BYv7O0lO8/g==",
   "success": true,
-  "projectFilePath": "H:\\Programming\\Projects\\Grouch\\Website\\RCONConsoleApp\\RCON\\RCON.csproj",
+  "projectFilePath": "H:\\Programming\\Projects\\Grouch\\GrouchLand\\RCONConsoleApp\\RCON\\RCON.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josh\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\josh\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

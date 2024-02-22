@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Programming\\Projects\\Grouch\\Website\\TF2ServerBrowserAPI\\TF2ServerBrowserAPI\\TF2ServerBrowserAPI.csproj": {}
+    "H:\\Programming\\Projects\\Grouch\\GrouchLand\\TF2ServerBrowserAPI\\TF2ServerBrowserAPI\\TF2ServerBrowserAPI.csproj": {}
   },
   "projects": {
-    "H:\\Programming\\Projects\\Grouch\\Website\\TF2ServerBrowserAPI\\TF2ServerBrowserAPI\\TF2ServerBrowserAPI.csproj": {
+    "H:\\Programming\\Projects\\Grouch\\GrouchLand\\TF2ServerBrowserAPI\\TF2ServerBrowserAPI\\TF2ServerBrowserAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Programming\\Projects\\Grouch\\Website\\TF2ServerBrowserAPI\\TF2ServerBrowserAPI\\TF2ServerBrowserAPI.csproj",
+        "projectUniqueName": "H:\\Programming\\Projects\\Grouch\\GrouchLand\\TF2ServerBrowserAPI\\TF2ServerBrowserAPI\\TF2ServerBrowserAPI.csproj",
         "projectName": "TF2ServerBrowserAPI",
-        "projectPath": "H:\\Programming\\Projects\\Grouch\\Website\\TF2ServerBrowserAPI\\TF2ServerBrowserAPI\\TF2ServerBrowserAPI.csproj",
+        "projectPath": "H:\\Programming\\Projects\\Grouch\\GrouchLand\\TF2ServerBrowserAPI\\TF2ServerBrowserAPI\\TF2ServerBrowserAPI.csproj",
         "packagesPath": "C:\\Users\\josh\\.nuget\\packages\\",
-        "outputPath": "H:\\Programming\\Projects\\Grouch\\Website\\TF2ServerBrowserAPI\\TF2ServerBrowserAPI\\obj\\",
+        "outputPath": "H:\\Programming\\Projects\\Grouch\\GrouchLand\\TF2ServerBrowserAPI\\TF2ServerBrowserAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\josh\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -5,6 +5,10 @@ import Browser from './Components/Browser';
 import patreonLogo from './Images/patreon.png'; 
 import youtubeLogo from './Images/youtube.png';
 import itchLogo from './Images/itch.png';
+import bgImg from './Images/Background.png';
+import bgImgYt from './Images/BackgroundYT.png';
+import bgImgTj from './Images/BackgroundLightning.png';
+import bgImgPn from './Images/BackgroundPatreon.png';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import GoogleLoginButton from './Components/GoogleLoginButton';
@@ -12,10 +16,11 @@ import LightSwitch from './Components/LightSwitch';
 import EditorSwitch from './Components/EditorSwitch';
 import ColorPicker from './Components/ColorPicker';
 import './Css/ColorPicker.css'
+import Links from './Components/Links';
 
 function App() {
-  //const url = "https://localhost:7250/";
-  const url = "/API/";
+  const url = "https://localhost:7250/";
+  //const url = "/API/";
   const debug = true;
 
 
@@ -69,6 +74,9 @@ function App() {
 
   //state for server background color / title color
   const [secondaryColorLight, setSecondaryColorLight] = useState(null);
+
+  //state for background image
+  const [getBgImg, setBgImg] = useState(bgImg);
   
   //load data from client cache if exists
   //also initialize server data, and color palettes
@@ -338,34 +346,66 @@ function App() {
       setEditorMode(false);
   }
 
+  function updateBackground(backgroundName)
+  {
+    switch(backgroundName)
+    {
+      
+      case 'YT':
+        setBgImg(bgImgYt);
+        break;
+      case 'BG':
+        setBgImg(bgImg);
+        break;
+      case 'PN':
+        setBgImg(bgImgPn);
+        break;
+      case 'TJ':
+        setBgImg(bgImgTj);
+        break;
+      default:
+          setBgImg(bgImg);
+        break;
+        
+    }
+  }
+
 
   return (
-    <div className="App" style={{backgroundColor:  lightsOn ? primaryColorLight : primaryColorDark}} key={"bg " + lightsOn ? primaryColorLight : primaryColorDark}>
-      <GoogleLoginButton handleLogin={handleLogin} handleLogout={handleLogout} loginData={loginData} debug={debug}/>
-      <LightSwitch lightsOn={lightsOn} toggleLights={toggleLights}/>
+    <div style={{backgroundImage:'url(' + getBgImg + ')', backgroundSize:'100% 100%', width:'100vw'}}>
+      <div className="App" style={{/*backgroundColor:  lightsOn ? primaryColorLight : primaryColorDark*/}} key={"bg " + lightsOn ? primaryColorLight : primaryColorDark}>
+        <GoogleLoginButton handleLogin={handleLogin} handleLogout={handleLogout} loginData={loginData} debug={debug}/>
+        {//<LightSwitch lightsOn={lightsOn} toggleLights={toggleLights}/>
+        }
 
-      {/*allow use of editor mode if user is authorized */}
-      {userAuthorized ? <EditorSwitch lightsOn={lightsOn} editorMode={editorMode} toggleEditorMode={updateEditorMode} key={" " + editorMode}/> : null}
+        {/*allow use of editor mode if user is authorized */}
+        {userAuthorized ? <EditorSwitch lightsOn={lightsOn} editorMode={editorMode} toggleEditorMode={updateEditorMode} key={" " + editorMode}/> : null}
 
-      {/*enable color pickers if in editor mode */}
-      {editorMode && primaryColorDark && primaryColorLight ?
-      <div>
+        {/*enable color pickers if in editor mode */}
+        {/*editorMode && primaryColorDark && primaryColorLight ?
+        <div>
+          
+          <ColorPicker name="Background" setColor={setPrimaryColor} color={ lightsOn ? primaryColorLight : primaryColorDark} saveColor={saveColor} class="PrimaryColorPicker" invert="true" key={lightsOn ? primaryColorLight + " " + editorMode : primaryColorDark + " " + editorMode}/>
+          <ColorPicker name="Server Browser" setColor={setSecondaryColor} color={ lightsOn ? secondaryColorLight : secondaryColorDark} saveColor={saveColor} class="SecondaryColorPicker" key={lightsOn ? secondaryColorLight + " " + editorMode : secondaryColorDark + " " + editorMode}/>
         
-        <ColorPicker name="Background" setColor={setPrimaryColor} color={ lightsOn ? primaryColorLight : primaryColorDark} saveColor={saveColor} class="PrimaryColorPicker" invert="true" key={lightsOn ? primaryColorLight + " " + editorMode : primaryColorDark + " " + editorMode}/>
-        <ColorPicker name="Server Browser" setColor={setSecondaryColor} color={ lightsOn ? secondaryColorLight : secondaryColorDark} saveColor={saveColor} class="SecondaryColorPicker" key={lightsOn ? secondaryColorLight + " " + editorMode : secondaryColorDark + " " + editorMode}/>
-      </div>
-      : null}
+          </div>
+      : null*/}
 
-      <div className="Title" style={{color: lightsOn ? secondaryColorLight : secondaryColorDark}}>
-        Grouchland
-        <a href="https://www.youtube.com/@HeyGrouch"><img src={youtubeLogo} alt="Youtube" width="5%"/></a>
-        <a href="https://www.patreon.com/grouchland"><img src={patreonLogo} alt="Patreon" width="3.5%"/></a>
-        <a href="https://heygrouch.itch.io/"><img src={itchLogo} alt="itch" width="12%"/></a>
+        <div className="Title" style={{color: lightsOn ? secondaryColorLight : secondaryColorDark}}>
+          {/*Grouchland
+          <a href="https://www.youtube.com/@HeyGrouch"><img src={youtubeLogo} alt="Youtube" width="5%"/></a>
+          <a href="https://www.patreon.com/grouchland"><img src={patreonLogo} alt="Patreon" width="3.5%"/></a>
+          <a href="https://heygrouch.itch.io/"><img src={itchLogo} alt="itch" width="12%"/></a>
+          */}
+        </div>
+        <div style={{width:"5%"}}>
+        </div>   
+        {/*!popUpActive ? <Map servers={servers}/> : <div className='Map-Place-Holder' /> */}
+        <div style={{position:'absolute', top:'30%'}}>
+          <Browser servers={servers} editorMode={editorMode} url={url} defaultObj={defaultObj} GetAllServers={GetAllServers} LogAxios={LogAxios} PopUpActive={PopUpActive} ToGpsJSONFromPoint={ToGpsJSONFromPoint} color={lightsOn ? secondaryColorLight : secondaryColorDark} key={servers.length + " "}/>
+        </div>
+        <Links UpdateBackground={updateBackground}/>
       </div>
-      <div style={{width:"5%"}}>
-      </div>   
-      {!popUpActive ? <Map servers={servers}/> : <div className='Map-Place-Holder' /> }
-      <Browser servers={servers} editorMode={editorMode} url={url} defaultObj={defaultObj} GetAllServers={GetAllServers} LogAxios={LogAxios} PopUpActive={PopUpActive} ToGpsJSONFromPoint={ToGpsJSONFromPoint} color={lightsOn ? secondaryColorLight : secondaryColorDark} key={servers.length + " "}/>
     </div>
   );
 }

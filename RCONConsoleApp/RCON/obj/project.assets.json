@@ -3970,11 +3970,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Programming\\Projects\\Grouch\\Website\\RCONConsoleApp\\RCON\\RCON.csproj",
+      "projectUniqueName": "H:\\Programming\\Projects\\Grouch\\GrouchLand\\RCONConsoleApp\\RCON\\RCON.csproj",
       "projectName": "RCON",
-      "projectPath": "H:\\Programming\\Projects\\Grouch\\Website\\RCONConsoleApp\\RCON\\RCON.csproj",
+      "projectPath": "H:\\Programming\\Projects\\Grouch\\GrouchLand\\RCONConsoleApp\\RCON\\RCON.csproj",
       "packagesPath": "C:\\Users\\josh\\.nuget\\packages\\",
-      "outputPath": "H:\\Programming\\Projects\\Grouch\\Website\\RCONConsoleApp\\RCON\\obj\\",
+      "outputPath": "H:\\Programming\\Projects\\Grouch\\GrouchLand\\RCONConsoleApp\\RCON\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\josh\\AppData\\Roaming\\NuGet\\NuGet.Config",

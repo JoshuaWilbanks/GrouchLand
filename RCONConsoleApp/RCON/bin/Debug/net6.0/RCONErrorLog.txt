@@ -157,3 +157,33 @@ System.Net.Sockets.SocketException (10061): No connection could be made because 
 --- End of stack trace from previous location ---
    at CoreRCON.RCON.ConnectAsync()
    at Program.<>c__DisplayClass0_0.<<<Main>$>g__GetStatus|1>d.MoveNext() in H:\Programming\Projects\Grouch\Website\RCONConsoleApp\RCON\Program.cs:line 79
+
+--------------------------------------------------------------------------------------
+8/3/2023 3:22:37 PM
+Server IP: 167.172.144.237
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Program.<>c__DisplayClass0_0.<<<Main>$>g__GetStatus|1>d.MoveNext() in H:\Programming\Projects\Grouch\GrouchLand\RCONConsoleApp\RCON\Program.cs:line 100
+
+--------------------------------------------------------------------------------------
+8/3/2023 3:23:08 PM
+Server IP: 167.172.144.237
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Program.<>c__DisplayClass0_0.<<<Main>$>g__GetStatus|1>d.MoveNext() in H:\Programming\Projects\Grouch\GrouchLand\RCONConsoleApp\RCON\Program.cs:line 100
+
+--------------------------------------------------------------------------------------
+8/3/2023 3:24:58 PM
+Server IP: 167.172.144.237
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Program.<>c__DisplayClass0_0.<<<Main>$>g__GetStatus|1>d.MoveNext() in H:\Programming\Projects\Grouch\GrouchLand\RCONConsoleApp\RCON\Program.cs:line 100
+
+--------------------------------------------------------------------------------------
+8/3/2023 3:29:20 PM
+Server IP: 167.172.144.237
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Program.<>c__DisplayClass0_0.<<<Main>$>g__GetStatus|1>d.MoveNext() in H:\Programming\Projects\Grouch\GrouchLand\RCONConsoleApp\RCON\Program.cs:line 100
+
+--------------------------------------------------------------------------------------
+8/3/2023 3:29:48 PM
+Server IP: 167.172.144.237
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Program.<>c__DisplayClass0_0.<<<Main>$>g__GetStatus|1>d.MoveNext() in H:\Programming\Projects\Grouch\GrouchLand\RCONConsoleApp\RCON\Program.cs:line 100

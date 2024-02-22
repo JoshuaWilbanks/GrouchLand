@@ -6,6 +6,7 @@ import Popup from 'reactjs-popup';
 import Delete from './Delete';
 import axios from 'axios';
 import Edit from './Edit';
+import Pip from '../Images/Single_Pip.png';
 
 export default function Server(props) {
 
